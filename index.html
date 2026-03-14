@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Vision</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Smart Object Detection</h1>
+            <p>Select one option to continue</p>
+        </header>
+
+        <div class="options">
+
+            <!--Upload -->
+            <div class="card">
+                <h2>Upload Image</h2>
+
+                <div class="upload-box">
+                    Click or drag image here
+                </div>
+
+                <button class="btn disabled">Upload & Detect</button>
+            </div>
+
+            <!-- Camera-->
+            <div class="card">
+                <h2>Real-Time Camera</h2>
+
+                <div class="camera-box">
+                    Opens full-screen OpenCV window
+                </div>
+
+                <button class="btn disabled">Start Detection</button>
+            </div>
+
+        </div>
+
+        <!-- Results -->
+        <section class="result">
+            <div class="preview">
+                <h3>Detection Result</h3>
+                <div class="placeholder">Output image will appear here</div>
+            </div>
+
+            <div class="info">
+                <h3>Detected Objects</h3>
+                <ul>
+                    <li>—</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2025 Smart Vision Project</p>
+        </footer>
+
+    </div>
+<script src="app.js"></script>
+</body>
+
+</html>
